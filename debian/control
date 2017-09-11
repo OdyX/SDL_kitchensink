@@ -1,0 +1,31 @@
+Source: sdl-kitchensink
+Section: devel
+Priority: extra
+Maintainer: Didier Raboud <odyx@debian.org> 
+Build-Depends:
+ debhelper (>= 10.2.5~),
+ libsdl2-dev,
+ libavcodec-dev,
+ libavdevice-dev,
+ libavfilter-dev,
+ libavformat-dev,
+ libavresample-dev,
+ libavutil-dev,
+ libswresample-dev,
+ libswscale-dev,
+ libpostproc-dev,
+ libass-dev,
+Standards-Version: 4.1.0
+Homepage: https://github.com/katajakasa/SDL_kitchensink
+
+Package: libsdl-kitchensink
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description:
+ 
+Package: libsdl-kitchensink-dev
+Architecture: any
+Section: libdevel
+Depends:
+ ${misc:Depends}
+Description: 
