@@ -21,11 +21,11 @@ Homepage: https://github.com/katajakasa/SDL_kitchensink
 Package: libsdl-kitchensink
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description:
+Description: FFmpeg and SDL2 based library for audio and video playback, written in C99
  
 Package: libsdl-kitchensink-dev
 Architecture: any
 Section: libdevel
 Depends:
  ${misc:Depends}
-Description: 
+Description: FFmpeg and SDL2 based library for audio and video playback, written in C99 - Development files
