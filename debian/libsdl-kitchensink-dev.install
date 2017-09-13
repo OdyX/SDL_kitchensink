@@ -1,2 +1,3 @@
 usr/include/kitchensink/*.h
+usr/lib/*/libSDL_kitchensink.so
 usr/lib/*/libSDL_kitchensink_static.a
