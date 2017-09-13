@@ -1,1 +1,2 @@
 0001-Use-CMAKE_INSTALL-targets.patch
+0002-Set-VERSION-and-SOVERSION-properly.patch
