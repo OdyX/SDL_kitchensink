@@ -1,8 +1,11 @@
-From d7d7365e73ad4922e5d96f4085fa07658c841bfb Mon Sep 17 00:00:00 2001
+From ce28aad319fe187c895e1319280c5e53d6648168 Mon Sep 17 00:00:00 2001
 From: Tuomas Virtanen <katajakasa@gmail.com>
 Date: Mon, 11 Sep 2017 21:05:54 +0300
 Subject: Set VERSION and SOVERSION properly
 
+Origin: upstream
+Applied-Upstream: 09cf13b9256c8bc599188cb2f2c6f8322d632abb
+Bug-Upstream: https://github.com/katajakasa/SDL_kitchensink/issues/25
 ---
  CMakeLists.txt | 15 +++++++++------
  1 file changed, 9 insertions(+), 6 deletions(-)
